@@ -1,0 +1,51 @@
+li
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    height: 140px;
+}
+
+nav img {
+    width: 100px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: auto; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;  
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
